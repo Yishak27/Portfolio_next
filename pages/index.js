@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ermiyas Damte Haile Portfolio</title>
+        <title>Ermiyas Damte Haile</title>
         <meta name="description"
           content="My name is Ermiyas damte haile am a software engineer | Developer | UI/UX designer." />
         <meta name="author" content="Ermiyas Damte" />
