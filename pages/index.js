@@ -31,22 +31,25 @@ export default function Home() {
     <>
       <Head>
         <title>Ermiyas Damte Haile Portfolio</title>
-        <meta name="description" content="Full Stack Developer & UI/UX Designer with over 3 years of experience" />
+        <meta name="description"
+          content="My name is Ermiyas damte haile am a software engineer | Developer | UI/UX designer." />
         <meta name="author" content="Ermiyas Damte" />
-        <meta name="creator" content="Ermiyas Damte And Makite Desta" />
+        <meta name="creator" content="Ermiyas Damte" />
         <meta name="keywords" content="ermiyas, ermiyas damte, yishak, yishak27, ermi, ermiyas.dev" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         {/* Open Graph Meta Tags */}
-        <meta property="og:title" content="Ermiyas Damte Haile Portfolio" />
-        <meta property="og:description" content="Full Stack Developer & UI/UX Designer with over 3 years of experience" />
+        <meta property="og:title" content="Ermiyas Damte Haile" />
+        <meta property="og:description"
+          content="My name is Ermiyas damte haile am a software engineer | Developer | UI/UX designer." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://ermiyas.dev" />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Ermiyas Damte Haile Portfolio" />
-        <meta name="twitter:description" content="Full Stack Developer & UI/UX Designer with over 3 years of experience" />
+        <meta name="twitter:title" content="Ermiyas Damte Haile" />
+        <meta name="twitter:description"
+          content="My name is Ermiyas damte haile am a software engineer | Developer | UI/UX designer." />
 
         {/* Additional Meta Tags */}
         <meta name="robots" content="index, follow" />
@@ -55,6 +58,8 @@ export default function Home() {
         <link rel="author" href="https://www.linkedin.com/in/ermiyas-damte/" />
 
         <link rel="icon" href="/favicon.ico" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="google" content="notranslate" />
       </Head>
       <div onContextMenu={(e) => e.preventDefault()} className="App">
         <h1 className="visually-hidden hidden">Ermiyas Damte Haile - Software Engineer Portfolio</h1>
