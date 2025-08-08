@@ -30,11 +30,30 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ermiyas Damte Haile - Software Engineer Portfolio</title>
+        <title>Ermiyas Damte Haile Portfolio</title>
         <meta name="description" content="Full Stack Developer & UI/UX Designer with over 3 years of experience" />
+        <meta name="author" content="Ermiyas Damte" />
+        <meta name="creator" content="Ermiyas Damte And Makite Desta" />
+        <meta name="keywords" content="ermiyas, ermiyas damte, yishak, yishak27, ermi, ermiyas.dev" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="Ermiyas Damte Haile - Software Engineer Portfolio" />
-        <meta author="Ermiyas Damte Haile" />      
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="Ermiyas Damte Haile Portfolio" />
+        <meta property="og:description" content="Full Stack Developer & UI/UX Designer with over 3 years of experience" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ermiyas.dev" />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Ermiyas Damte Haile Portfolio" />
+        <meta name="twitter:description" content="Full Stack Developer & UI/UX Designer with over 3 years of experience" />
+
+        {/* Additional Meta Tags */}
+        <meta name="robots" content="index, follow" />
+        <meta name="language" content="English" />
+        <link rel="canonical" href="https://ermiyas.dev" />
+        <link rel="author" href="https://www.linkedin.com/in/ermiyas-damte/" />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div onContextMenu={(e) => e.preventDefault()} className="App">
