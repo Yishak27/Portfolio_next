@@ -70,7 +70,7 @@ export default function Home() {
         <meta name="google" content="notranslate" />
       </Head>
       <div onContextMenu={(e) => e.preventDefault()} className="App">
-        <h1 className="visually-hidden hidden">Ermiyas Damte Haile - Software Engineer Portfolio</h1>
+        <h1 className="visually-hidden hidden">Ermiyas Damte Haile - Software Engineer & UI/UX Designer</h1>
         <NavBar />
         <Divider />
         <HomePage />
