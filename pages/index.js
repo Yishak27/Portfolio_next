@@ -57,6 +57,14 @@ export default function Home() {
         <link rel="canonical" href="https://ermiyas.dev" />
         <link rel="author" href="https://www.linkedin.com/in/ermiyas-damte/" />
 
+        {/* Social Media and Portfolio Links */}
+        <link rel="me" href="https://github.com/ermiyas-damte" />
+        <link rel="me" href="https://ermiyas.dev" />
+        <link rel="me" href="https://t.me/ermiyas_damte" />
+        <link rel="me" href="https://dribbble.com/ermiyas_damte" />
+        <link rel="me" href="https://instagram.com/ermiyas_damte" />
+        <link rel="me" href="https://www.linkedin.com/in/ermiyas-damte/" />
+
         <link rel="icon" href="/favicon.ico" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="google" content="notranslate" />
