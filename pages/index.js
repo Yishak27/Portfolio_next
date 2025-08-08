@@ -33,6 +33,8 @@ export default function Home() {
         <title>Ermiyas Damte Haile - Software Engineer Portfolio</title>
         <meta name="description" content="Full Stack Developer & UI/UX Designer with over 3 years of experience" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Ermiyas Damte Haile - Software Engineer Portfolio" />
+        <meta author="Ermiyas Damte Haile" />      
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div onContextMenu={(e) => e.preventDefault()} className="App">
