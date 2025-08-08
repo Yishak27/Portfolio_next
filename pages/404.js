@@ -6,7 +6,7 @@ export default function ErrorPage() {
   return (
     <>
       <Head>
-        <title>404 - Page Not Found - Ermiyas Damte Haile</title>
+        <title>404 - Page Not Found On this url, by Ermiyas Damte Haile</title>
         <meta name="description" content="Page not found" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
