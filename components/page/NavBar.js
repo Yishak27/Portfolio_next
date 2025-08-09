@@ -29,6 +29,12 @@ export default function NavBar() {
                             </a>
                         </li>
                         <li>
+                            <Link href="/support"
+                             aria-label='Support' className="nav-link py-2 md:py-0 text-sm hover:text-[var(--color-primary)]">
+                            <h2 className="">Support</h2>
+                            </Link>
+                        </li>
+                        <li>
                             <Link href="/contact"
                              aria-label='Contact' className="nav-link py-2 md:py-0 text-sm hover:text-[var(--color-primary)]">
                             <h2 className="">Contact</h2>
