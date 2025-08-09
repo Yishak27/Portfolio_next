@@ -16,8 +16,8 @@
   --color-secondary: #eaeaea;
   --color-tertiary: #f5f5f5;
   --color-botton: #E8A342;
-  --color-background-1: #31343C;
-  --color-background-2: #222327;
+  --color-background-1: #fff;
+  --color-background-2: #f5f5f5;
 }
 
 [data-theme='dark'] {

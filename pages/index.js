@@ -66,7 +66,7 @@ export default function Home() {
         <link rel="me" href="https://www.linkedin.com/in/ermiyas-damte/" />
 
         <link rel="icon" href="/favicon.ico" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="google" content="notranslate" />
       </Head>
       <div onContextMenu={(e) => e.preventDefault()} className="App">
@@ -83,13 +83,26 @@ export default function Home() {
         </Suspense>
         <ContactPage />
         {showTop && (
-          <button
-            onClick={scrollToTop}
-            className="fixed bottom-8 right-8 z-50 p-3 rounded-full shadow-lg bg-[var(--color-botton)] transition-colors"
-            aria-label="Back to top"
-          >
-            <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6" /></svg>
-          </button>
+          <>
+            <a
+              href="https://www.buymeacoffee.com/ermiyas"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="fixed bottom-24 right-8 z-50 p-3 rounded-full shadow-lg bg-yellow-500 hover:bg-yellow-600 transition-colors text-white"
+              aria-label="Buy me a coffee"
+            >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z" />
+              </svg>
+            </a>
+            <button
+              onClick={scrollToTop}
+              className="fixed bottom-8 right-8 z-50 p-3 rounded-full shadow-lg bg-[var(--color-botton)] transition-colors"
+              aria-label="Back to top"
+            >
+              <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6" /></svg>
+            </button>
+          </>
         )}
         <Separator style={{ width: "100%" }} mt={{ lg: "3", md: "2", sm: "2", xs: "2", xl: "4" }} />
         <FooterPage />
