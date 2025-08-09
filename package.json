@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "NODE_ENV=production next build",
-    "build:secure": "NODE_ENV=production GENERATE_SOURCEMAP=false next build",
+    "build": "next build",
+    "build:secure": "GENERATE_SOURCEMAP=false next build",
     "start": "next start",
     "lint": "next lint",
     "analyze": "ANALYZE=true npm run build"

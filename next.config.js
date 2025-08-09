@@ -9,7 +9,7 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
     // Remove console.logs in production
-    removeConsole: process.env.NODE_ENV === 'production',
+    removeConsole:  'production',
   },
   
   // Code splitting and chunking optimization
