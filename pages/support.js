@@ -50,7 +50,7 @@ export default function Support() {
               Support My Work ☕
             </h1>
 
-            <p className="text-lg text-center mb-12 max-w-2xl mx-auto text-gray-600">
+            <p className="text-lg text-center mb-12 max-w-2xl mx-auto text-gray-400">
               If you enjoy my projects and want to support my work, consider buying me a coffee!
               Your support helps me create more amazing projects and keep learning new technologies.
             </p>
@@ -68,7 +68,7 @@ export default function Support() {
                     className="w-64 h-64 object-contain"
                   />
                 </div>
-                <p className="text-sm text-gray-500 mt-4 text-center">
+                <p className="text-sm text-gray-400 mt-4 text-center">
                   Scan with your phone to support directly
                 </p>
               </div>
@@ -86,7 +86,7 @@ export default function Support() {
                       Buy me a coffee
                     </a>
                   </div>
-                  <p className="text-sm text-gray-500 text-center max-w-xs">
+                  <p className="text-sm text-gray-400 text-center max-w-xs">
                     Every coffee helps fuel my passion for coding and creating awesome projects!
                   </p>
                 </div>
@@ -97,7 +97,7 @@ export default function Support() {
               <h3 className="text-2xl font-bold text-[var(--color-primary)] mb-4">
                 Thank You! 🙏
               </h3>
-              <p className="text-gray-600 max-w-xl mx-auto">
+              <p className="text-gray-400 max-w-xl mx-auto">
                 Your support means the world to me and helps me continue building
                 innovative solutions and sharing knowledge with the developer community.
               </p>
