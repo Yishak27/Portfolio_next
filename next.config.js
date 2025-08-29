@@ -2,21 +2,21 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  
+
   // Security and optimization
   productionBrowserSourceMaps: false, // Disable source maps in production
-  
+
   compiler: {
     styledComponents: true,
     // Remove console.logs in production
-    removeConsole:  'production',
+    removeConsole: process.env.NODE_ENV === "production", // ✅ boolean
   },
-  
+
   // Code splitting and chunking optimization
-  experimental: {
-    optimizeCss: true,
-  },
-  
+  // experimental: {
+  //   optimizeCss: true,
+  // },
+
   // Webpack optimization for smaller, obfuscated bundles
   webpack: (config, { dev, isServer }) => {
     if (!dev && !isServer) {
@@ -24,27 +24,25 @@ const nextConfig = {
       config.optimization = {
         ...config.optimization,
         splitChunks: {
-          chunks: 'all',
+          chunks: "all",
           cacheGroups: {
             vendor: {
               test: /[\\/]node_modules[\\/]/,
-              name: 'vendors',
-              chunks: 'all',
+              name: "vendors",
+              chunks: "all",
             },
           },
         },
-      };
-      
-      // Additional minification
-      config.optimization.minimize = true;
+        minimize: true, // ✅ keep minification
+      }
     }
-    return config;
+    return config
   },
-  
+
   images: {
-    domains: ['localhost'],
+    domains: ["localhost"],
   },
-  
+
   // Environment variable security
   env: {
     // Only expose what's absolutely necessary

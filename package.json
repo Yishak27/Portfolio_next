@@ -38,6 +38,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^7.0.2",
     "autoprefixer": "^10.0.1",
+    "critters": "^0.0.25",
     "eslint": "^8",
     "eslint-config-next": "14.0.0",
     "postcss": "^8",
